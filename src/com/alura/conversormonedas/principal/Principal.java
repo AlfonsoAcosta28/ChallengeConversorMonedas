@@ -1,8 +1,9 @@
 package com.alura.conversormonedas.principal;
 
+import com.google.gson.Gson;
+
 public class Principal {
 	public static void main(String[] args) {
-		System.out.println("Hola mundo");
-		System.out.println("Si");
+		Gson json = new Gson();
 	}
 }
